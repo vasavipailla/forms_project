@@ -24,8 +24,8 @@ body {
 }
 
 .box {
-   
-    
+    display: flex;
+    justify-content: center;
     width:100%;
     max-width: 345px; 
     /* height: 594px; */
@@ -33,13 +33,13 @@ body {
 } 
 
 .duck{
-    
+   margin-right: 90px; 
+   margin-top: 50px;
 }
 
 form {
     display: flex;
     flex-direction: column; 
-    
     margin: 40px;
     padding: 20px;
     
@@ -56,7 +56,6 @@ input {
     background-color: #BE0909;
     border-bottom: 1px solid #9DBEBB;
     
-
 }
 
 .name {
