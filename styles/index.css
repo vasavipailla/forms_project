@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    margin: 40px;
+    margin: 60px;
 }
 
 
@@ -12,89 +12,83 @@ body {
     max-width: 1440px;
     min-height: 900px;
     background: #9DBEBB;
+
 }
+
 .container {
     display: flex;
     justify-content:space-between;
     margin:153px;
-    width: 954px;
-    /* height: 594px;  */
+    width:100%;
+    max-width: 954px;
+    min-height: 594px;
     background: #BE0909;
- 
+
 }
 
 .box {
     display: flex;
     justify-content: center;
     width:100%;
-    max-width: 345px; 
-    /* height: 594px; */
+    max-width: 345px;
     background: #FFB039;
-} 
+}
 
 .duck{
-   margin-right: 90px; 
+   margin-right: 150px;
    margin-top: 50px;
 }
 
 form {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin: 40px;
     padding: 20px;
-    
-    
+
+
 }
-    
+
 input {
     width:100%;
     max-width: 400px;
     min-height: 72px;
-     border-top: hidden;
+    border-top: hidden;
     border-left: hidden;
     border-right: hidden;
     background-color: #BE0909;
     border-bottom: 1px solid #9DBEBB;
-    
+
 }
 
 .name {
     width:100%;
     min-width: 111px;
     height: 21px;
-    /* left: 308px;
-    top: 217px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
     letter-spacing: 0.1em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #FEFFFF;
 }
 
 .button {
     width: 202px;
-height: 48px;
-
-background: #468189;
-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
-border-radius: 40px;
-left: calc(50% - 153px/2 - 211.5px);
-top: calc(50% - 21px/2 + 208.5px);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin:60px;
-border: none;
+    height: 48px;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin:60px;
+    border: none;
 
 }
