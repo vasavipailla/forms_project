@@ -75,3 +75,27 @@ input {
     text-transform: uppercase;
     color: #FEFFFF;
 }
+
+.button {
+    width: 202px;
+height: 48px;
+
+background: #468189;
+box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+border-radius: 40px;
+left: calc(50% - 153px/2 - 211.5px);
+top: calc(50% - 21px/2 + 208.5px);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin:60px;
+border: none;
+
+}
